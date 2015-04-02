@@ -28,8 +28,6 @@ public class DbCreator {
 	@PostConstruct
 	public void initDb() {
 		User user = new User("ahmed", "ahmed", "ahmed");
-
-
 		entityManager.persist(user);
 
 	}
